@@ -1,0 +1,33 @@
+#calc-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    
+    margin-top: 5px;
+}
+.form-control input{
+    padding: 1.2rem;
+    border-radius: 8px;
+}
+.form-control label {
+    font-weight: bold;
+    color: #cfcfcf;
+    margin: 3px;
+}
+.action-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
